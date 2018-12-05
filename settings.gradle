@@ -1,0 +1,16 @@
+include ':app', ':toastlibrary'
+sourceControl {
+//    gitRepository("https://github.com/CIRCL-it/CIRCL-android-v2.git") {
+//        producesModule("org.gradle.cpp-samples:repo")
+//    }
+//    gitRepository("https://github.com/CIRCL-it/CIRCL-android.git") {
+//        credentials {
+//            username = gitUsername
+//            password = gitPassword
+//        }
+//        producesModule("org.gradle.cpp-samples:repo")
+//    }
+    gitRepository("https://github.com/sragen/Toaster.git") {
+        producesModule("org.gradle.cpp-samples:repo")
+    }
+}
